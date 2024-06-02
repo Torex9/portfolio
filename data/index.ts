@@ -215,3 +215,6 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const TechStack1 = ["React.js", "Next.js", "TypeScript"];
+export const TechStack2 = ["Framer Motion", "Gsap", "MJML"];
