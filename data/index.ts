@@ -205,14 +205,13 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    socialLink: "https://github.com/torex9",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+
   {
     id: 3,
     img: "/link.svg",
+    socialLink: "https://www.linkedin.com/in/rufus-oludare-588a91169/",
   },
 ];
 

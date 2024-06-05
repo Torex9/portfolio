@@ -73,8 +73,7 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              // remove comma if he doesn't
-              className={cn(imgClassName, "object-cover, object-center")}
+              className={cn(imgClassName, "object-cover object-center")}
             />
           )}
         </div>
@@ -116,8 +115,7 @@ export const BentoGridItem = ({
                 {TechStack1.map((item) => (
                   <span
                     key={item}
-                    // remove lg:py-4 if he doesn't correct it
-                    className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
+                    className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:text-base lg:opacity-100"
                   >
                     {item}
                   </span>
@@ -129,8 +127,7 @@ export const BentoGridItem = ({
                 {TechStack2.map((item) => (
                   <span
                     key={item}
-                    // remove lg:py-4 if he doesn't correct it
-                    className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
+                    className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:text-base lg:opacity-100"
                   >
                     {item}
                   </span>
