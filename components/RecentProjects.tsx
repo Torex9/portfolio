@@ -2,12 +2,13 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of {""}
+        A small selection of my{" "}
         <span className="text-purple">recents projects</span>
       </h1>
       <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-8 p-4">
@@ -42,9 +43,12 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex items-center justify-center">
-                  <p className="flex text-sm text-purple md:text-xs lg:text-xl">
+                  <Link
+                    href={link}
+                    className="flex text-sm text-purple hover:text-green-500 md:text-xs lg:text-xl"
+                  >
                     Check Live Site
-                  </p>
+                  </Link>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
