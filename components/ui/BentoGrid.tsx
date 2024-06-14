@@ -9,6 +9,7 @@ import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 export const BentoGrid = ({
   className,
@@ -106,6 +107,19 @@ export const BentoGridItem = ({
           <div className="z-10 max-w-96 font-sans text-lg font-bold lg:text-3xl">
             {title}
           </div>
+          {id === 5 && (
+            <a
+              href="/RUFUS_OLUDARE_IT_CV.pdf"
+              download
+              className="mt-5 w-max md:mt-0"
+            >
+              <MagicButton
+                title="Download my CV "
+                position="right"
+                icon={<MdOutlineFileDownload size={20} />}
+              />
+            </a>
+          )}
 
           {id === 2 && <GlobeDemo />}
 

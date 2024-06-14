@@ -49,12 +49,13 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Explore my professional journey and skills",
+    description: "Discover My Journey",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "hidden sm:block absolute -right-5 bottom-0 md:w-40 lg:w-60 xl:w-96 w-60",
+    // imgClassName: "absolute -right-5 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/cv_1.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -156,12 +157,7 @@ export const companies = [
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
+
   {
     id: 5,
     name: "docker.",
