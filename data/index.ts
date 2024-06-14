@@ -53,7 +53,6 @@ export const gridItems = [
     description: "Discover My Journey",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "hidden sm:block absolute -right-5 bottom-0 md:w-40 lg:w-60 xl:w-96 w-60",
-    // imgClassName: "absolute -right-5 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/cv_1.svg",
     spareImg: "/grid.svg",
@@ -108,34 +107,26 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Rufus dedication and hard work are truly commendable. His passion for mastering the latest web technologies and creating seamless user experiences is inspiring. He consistently goes above and beyond, demonstrating an incredible work ethic and a keen eye for detail in every project. His ability to overcome challenges and grow as a frontend developer is impressive.",
+    name: "Steven Roberts",
+    title: "Head of Designs at NorthLink Digital",
+    img: "/steven.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Keiron Day",
+    title: "Full-Stack Developer at Northlink Digital",
+    img: "/Keiron.svg",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Iretomiwa Soladoye",
+    title: "Business Architecture Analyst at Accenture UK",
+    img: "/tomiwa.svg",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+
 ];
 
 export const companies = [
