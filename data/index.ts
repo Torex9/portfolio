@@ -139,19 +139,19 @@ export const companies = [
   {
     id: 2,
     name: "NetplusDotCom",
-    img: "/netplus_small.svg",
+    img: "/netplus_Small.svg",
     nameImg: "/NetPlusDotCom.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "FibreOne Broadband",
     img: "/fibreOneLogo.jpeg",
     nameImg: "/FiberOneName.svg",
   },
 
   {
     id: 5,
-    name: "docker.",
+    name: "AXA Mansard",
     img: "/AXA_Logo.svg",
     nameImg: "/axa-mansard.svg",
   },
