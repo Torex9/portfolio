@@ -3,7 +3,7 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
-import { TechStack1, TechStack2 } from "@/data";
+import { TechStack1, TechStack2 } from "@/data/index";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
