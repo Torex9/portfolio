@@ -76,7 +76,7 @@ export const projects = [
     des: "A space tourism website that reflects the journey to space and back. Built with Next.js, React.js and Tailwind CSS.",
     img: "/space_tourism.svg",
     iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://github.com/torex9",
+    link: "https://spacetourism-theta.vercel.app",
   },
   {
     id: 2,
