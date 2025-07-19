@@ -96,12 +96,20 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Carepulse",
+    des: "A machine learning-powered web app that predicts patient no- shows with built-in telehealth support.",
+    img: "/carepulse.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/machinelearning.svg", "/zoom.svg"],
+    link: "https://carepulse-rho.vercel.app/",
+  },
+  {
+    id: 5,
     title: "My Other Github Projects",
     des: "A collection of my other projects on Github utilizing React.js, Next.js, Tailwind CSS, Javascript, AI, Kotlin and Java.",
     img: "/github_profile.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/java.svg", "/kotlin.svg"],
     link: "https://github.com/torex9",
-  },
+  }
 ];
 
 export const testimonials = [
