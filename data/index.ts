@@ -168,27 +168,34 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "UseIT Intern - Siemens",
+    desc: "Assisted in improving digital workplace tools by supporting user engagement activities, resolving IT issues, enhancing internal systems, and contributing to productivity solutions used across Siemens.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 2,
     title: "Frontend Developer Intern - Northlink Digital",
     desc: "Assisted in the development of a web-based platform using Next js and Tailwind css, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Frontend Developer - NetplusDotCom",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Customer Service Representative - FibreOne Broadband",
     desc: " Provided customer support, ensuring customer satisfaction and retention.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
+    id: 5,
     title: "IT Support Analyst - AXA Mansard",
     desc: "Provided technical support to users, ensuring the smooth running of IT systems.",
     className: "md:col-span-2",
